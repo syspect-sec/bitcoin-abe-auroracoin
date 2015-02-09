@@ -1,0 +1,14 @@
+SELECT 
+a.tx_hash,
+a.txout_value,
+a.txout_scriptpubkey,
+a.pubkey_id,
+a.pubkey_hash 
+
+FROM public.txout_detail as a
+
+LEFT JOIN public.txin_detail as b on
+b.pubkey_hash = a.pubkey_hash
+
+WHERE b.pubkey_hash IS NULL AND
+b.pubkey_hash LIKE 'AS3DjbPMkEVueKNwP47fPcWnQiBR6UNXss';
