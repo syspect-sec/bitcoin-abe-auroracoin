@@ -1,12 +1,12 @@
-Abe: a free block chain browser for Bitcoin-based currencies.
-https://github.com/bitcoin-abe/bitcoin-abe
+Abe Auroracoin: a free block chain browser for Auroracoin currency.
+https://github.com/rippledj/bitcoin-abe-auroracoin
 
     Copyright(C) 2011,2012,2013 by Abe developers.
     License: GNU Affero General Public License, see the file LICENSE.txt.
     Portions Copyright (c) 2010 Gavin Andresen, see bct-LICENSE.txt.
 
-Welcome to Abe!
-===============
+Welcome to Abe Auroracoin!
+==========================
 
 This software reads the Bitcoin block file, transforms and loads the
 data into a database, and presents a web interface similar to Bitcoin
